@@ -22,32 +22,4 @@ Once these are filled out, press the play button. Wabbajack will begin downloadi
 
 In the "Modlist Installation Location" folder, there will be a portable instance of Mod Organizer 2. If you aren't familiar with Mod Organizer 2, the program has tutorials included and there are guides and documentation on their website: https://www.modorganizer.org/
 
-Once you've started this portable instance of Mod Organizer 2 (you may wish to create a shortcut to your desktop, start menu, or pin it to your taskbar), there are few more steps before you can start playing with the modlist. 
-
-## Manually installed mods and other files
-A few mods must be manually installed:
-
-Skyrim Script Extender (SKSE64): https://www.nexusmods.com/skyrimspecialedition/mods/30379
-
-SKSE Engine Fixes Part 2: https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files&file_id=181171
-
-Install for these mods are simple. You cann follow the installation instructions on nexus, but in short:
-
-Skyrim Script Extender (SKSE64): Open the archive with 7zip or your preferred archive manager. There should be a root folder in the archive, go into this folder if it is present. Take all of the files and folders from this archive and drag and drop them into your Skyrim Special Edition folder on steam. 
-
-SKSE Engine Fixes Part 2: Open the archive with 7zip or your preferred archive manager. Take all of the .dll files from this archive and drag and drop them into your Skyrim Special Edition folder on steam. 
-
-## Final Steps
-There are two tools that you must run manually, the Nemesis Behavior Engine and Wrye Bash:  
-
-Project New Reign - Nemesis Behavior Engine: Starting in the directory that the portable instance of MO2 was installed in, this tool is located at "\mods\Project New Reign - Nemesis Unlimited Behavior Engine\Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe". It is highly recommended to add this .exe to the list of executables MO2 can start for you. 
-
-Once you run Nemesis Behavior Engine, select the following mods; "Book Of Shadows", "True Directional Movement - 360 Horse Archery", "True Directional Movement - Procedural Leaning", "True Directional Movement - Headtracking"; click "Update Engine" and then click "Launch Nemesis Behavior Engine". You may now close Nemesis. 
-
-Before running Wrye Bash, it is **very important** that you sort your plugins. You can either download LOOT (https://loot.github.io/) or sort plugins through Mod Organizer 2 (on the right pane, select "plugins" and then click loot below the tabs on the right). 
-
-You can download the most recent version of Wrye Bash here: https://github.com/wrye-bash/wrye-bash/releases
-
-You must add Wrye Bash to the list of executables Mod Organizer 2 can run and run it through Mod Organizer 2 otherwise Wrye Bash will not be able to see your modlist. At the bottom of your plugin list, Wrye Bash should create a plugin called "Bashed Patch, 0.esp". Right click on this plugin and select "rebuild patch", then click "build patch". This may take a few minutes. 
-
-Once this is done, you should be all set! Make sure you have Skyrim Script Extender (SKSE64) set as an executable and run it through Mod Organizer 2. If you see an abomination on the Skyrim main menu and not the normal logo, you're all set! Happy pissing pvpJug
+Once you've started this portable instance of Mod Organizer 2 (you may wish to create a shortcut to your desktop, start menu, or pin it to your taskbar), make sure you have Skyrim Script Extender (SKSE64) set as an executable and run it through Mod Organizer 2. If you see an abomination on the Skyrim main menu and not the normal logo, you're all set! Happy pissing pvpJug
